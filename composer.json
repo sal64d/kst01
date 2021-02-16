@@ -1,0 +1,20 @@
+{
+  "description": "Examples for Google Ads API PHP Client Library",
+  "require": {
+    "googleads/googleads-php-lib": "^50.0.1"
+  },
+  "type": "project",
+  "homepage": "https://github.com/googleads/googleads-php-lib",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Google",
+      "homepage": "https://github.com/googleads/googleads-php-lib/contributors"
+    }
+  ],
+  "scripts": {
+    "pre-update-cmd": "@php check_conditions.php",
+    "pre-install-cmd": "@php check_conditions.php"
+  }
+  
+}
